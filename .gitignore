@@ -1,0 +1,36 @@
+# ──────────────────────────────
+# ✅ Python cache and editor files
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.DS_Store
+
+# ──────────────────────────────
+# ✅ Secrets & keys (NEVER push these)
+.env
+secrets.toml
+secrets/
+*.key
+*.json
+firebase_key.json
+
+# ──────────────────────────────
+# ✅ Models and logs
+*.log
+*.pkl
+*.joblib
+
+# ──────────────────────────────
+# ✅ Datasets
+*.csv
+*.xlsx
+*.parquet
+
+# ──────────────────────────────
+# ✅ Virtual environments
+venv/
+env/
+
+# ──────────────────────────────
+# ✅ System / OS generated files
+Thumbs.db
